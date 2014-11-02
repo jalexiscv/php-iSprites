@@ -17,7 +17,7 @@ continuacion proveo los metodos necesarios para crear la imagen, generar el codi
 proceso de la clase Sprites. Nota(1): Por definicion esta clase representa una mecanica de ilustración
 grafico contextual especializada similar a las estructuradas en sistemas como Google & Facebook.
 
-##Requirements
+## Requerimientos
 * PHP 4 or PHP 5
 
 ## Contactenme en:
