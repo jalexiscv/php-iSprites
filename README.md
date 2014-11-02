@@ -10,7 +10,7 @@ diferentes elementos graficos. La mecanica general implica segmentos delimitados
 se cargan desde archivos independientes para componer un grafico de mayor tamaño el cual es cargado y 
 del cual diferentes elementos  graficos de una UI hacen uso, visualizando porsiones del mismo para ilustrar 
 sus fines. Esta clase creara imagenes compuestas por sprites y mediante la generacion automatizada de 
-codigo CSS se le dara uso interior del Sistema INSSIDE, como parte de su diseño web mejorando el 
+codigo CSS se le dara uso al interior del Framework Insside®, como parte de su diseño web mejorando el 
 rendimiento mediante la combinación de numerosas imágenes o iconos pequeños en una imagen más grande 
 cuyo esta definido mediante la salida legible escrita en CSS, la cual se invocara desde el codigo HTML, a 
 continuacion proveo los metodos necesarios para crear la imagen, generar el codigo CSS y controlar el 
