@@ -12,7 +12,7 @@ del cual diferentes elementos  graficos de una UI hacen uso, visualizando porsio
 sus fines. Esta clase creara imagenes compuestas por sprites y mediante la generacion automatizada de 
 codigo CSS se le dara uso al interior del Framework Insside®, como parte de su diseño web mejorando el 
 rendimiento mediante la combinación de numerosas imágenes o iconos pequeños en una imagen más grande 
-cuyo esta definido mediante la salida legible escrita en CSS, la cual se invocara desde el codigo HTML, a 
+cuyo uso esta definido mediante la salida legible escrita en CSS, la cual se invocara desde el codigo HTML, a 
 continuacion proveo los metodos necesarios para crear la imagen, generar el codigo CSS y controlar el 
 proceso de la clase Sprites. Nota(1): Por definicion esta clase representa una mecanica de ilustración
 grafico contextual especializada similar a las estructuradas en sistemas como Google & Facebook.
