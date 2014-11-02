@@ -18,7 +18,7 @@ proceso de la clase Sprites. Nota(1): Por definicion esta clase representa una m
 grafico contextual especializada similar a las estructuradas en sistemas como Google & Facebook.
 
 ##Requirements
-* ** PHP 4 or PHP 5
+* PHP 4 or PHP 5
 
 ## Contactenme en:
 * **Perfil**: http://about.me/jalexiscv
