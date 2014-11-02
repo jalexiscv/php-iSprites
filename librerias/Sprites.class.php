@@ -55,7 +55,7 @@ class Sprites {
       $this->tipo=$tipo;
   }
   public function errores(){return $this->errores;}
-  public function add($ruta, $id = "elem") {
+  public function agregar($ruta, $id = "elem") {
     if (file_exists($ruta)) {
       $info = getimagenesize($ruta);
       if (is_array($info)) {
