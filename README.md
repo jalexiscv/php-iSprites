@@ -1,5 +1,5 @@
-Sprites PHP Class
-============================
+# Sprites PHP Class
+
 En los gráficos por ordenador, un sprite es una imagen de dos dimensiones o animación (2D) que se integra 
 en una escena más grande. Incluyendo Inicialmente sólo objetos gráficos manipulados por separado. 
 Los sprites eran un método de integrar mapas de bits no relacionadas de modo que parecían 
@@ -18,11 +18,11 @@ proceso de la clase Sprites. Nota(1): Por definicion esta clase representa una m
 grafico contextual especializada similar a las estructuradas en sistemas como Google & Facebook.
 
 
-Contactenme en:
-Perfil: http://about.me/jalexiscv
-Correo Electrónico: jalexiscv@gmail.com
-Whatsapp: +573173997946
+## Contactenme en:
+* **Perfil**: http://about.me/jalexiscv
+* **Correo Electrónico**: jalexiscv@gmail.com
+* **Whatsapp**: +573173997946
 
-Donaciones:
-Paypal: jalexiscv@gmail.com
+## Donaciones:
+* **Paypal**: jalexiscv@gmail.com
 
