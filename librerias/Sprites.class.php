@@ -55,9 +55,9 @@ class Sprites {
       $this->tipo=$tipo;
   }
   public function errores(){return $this->errores;}
-  public function agregar($ruta, $id = "elem") {
+  public function agregar($ruta, $id) {
     if (file_exists($ruta)) {
-      $info = getimagenesize($ruta);
+      $info = getimagesize($ruta);
       if (is_array($info)) {
         $new = sizeof($this->imagenes);
         $this->imagenes[$new]["path"] = $ruta;
@@ -87,7 +87,7 @@ class Sprites {
   private function crear() {
     $total = $this->volumen();
     $sprite = imagecreatetruecolor($total["width"], $total["height"]);
-    imagenesavealpha($sprite, true);
+    imagesavealpha($sprite, true);
     $transparente= imagecolorallocatealpha($sprite, 0, 0, 0, 127);
     imagefill($sprite, 0, 0, $transparente);
     $top = 0;
@@ -106,7 +106,7 @@ class Sprites {
     $func($sprite);
     ImageDestroy($sprite);
   }
-  public function css($path = "/css_sprite.png") {
+  public function css($ruta) {
     $total = $this->volumen();
     $top = $total["height"];
     $css = "";
@@ -116,7 +116,7 @@ class Sprites {
       } else {
         $css.=$image["id"] . " { ";
       }
-      $css.="background-image: url(" . $path . "); ";
+      $css.="background-image: url(" . $ruta. "); ";
       $css.="background-position: " . ($image["width"] - $total["width"]) . "px " . ($top - $total["height"]) . "px; ";
       $css.="width: " . $image['width'] . "px; ";
       $css.="height: " . $image['height'] . "px; ";
