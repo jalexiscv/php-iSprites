@@ -1,4 +1,4 @@
-# Sprites PHP Class
+# iSprites - Insside Framewok®
 
 En los gráficos por ordenador, un sprite es una imagen de dos dimensiones o animación (2D) que se integra 
 en una escena más grande. Incluyendo Inicialmente sólo objetos gráficos manipulados por separado. 
